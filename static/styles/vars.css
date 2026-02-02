@@ -1,0 +1,26 @@
+:root {
+    --font-base: 'Etude Noire', sans-serif;
+    --font-plain: 'Zodiak', sans-serif;
+    --font: normal 16px var(--font-base);
+}
+
+:root {
+    --transition-linear: all 0.1s ease-in-out;
+}
+
+:root {
+    --color-bg: #FFF5E9;
+    --color-white: #ffffff;
+    --color-bold-brand: #5f3e31;
+    --color-base-brand: #774e3d;
+    --color-second-brand: #c79673;
+    --color-tiny: rgba(119, 78, 61, 0.6);
+    --color-head: rgba(199, 150, 115, 0.5);
+
+    --color-stgau: #e6a459;
+
+    --color-block: #f2d6c2;
+    --color-success: #22b83d;
+
+    --chip-box-shadow: box-shadow: 0 2px 35px 0 rgba(15, 199, 48, 0.7);
+}

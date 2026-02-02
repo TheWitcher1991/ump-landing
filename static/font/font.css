@@ -1,0 +1,13 @@
+@font-face {
+    font-family: 'Etude Noire';
+    src: url('./Etude Noire Medium.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Zodiak';
+    src: url('./Zodiak-Variable.ttf') format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
