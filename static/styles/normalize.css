@@ -5,7 +5,7 @@
 }
 
 ::-webkit-scrollbar-thumb {
-    background: var(--color-accent);
+    background: var(--color-base-brand);
 }
 
 ::-webkit-scrollbar-track {

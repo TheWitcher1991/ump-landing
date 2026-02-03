@@ -1,7 +1,12 @@
+#main {
+    max-width: 1920px;
+    width: 100%;margin: 0 auto;
+}
+
 #header {
     background: url("../../public/ump.jpg");
     width: 100%;
-    height: 100vh;
+    height: 100dvh;
     object-fit: cover;
     background-position: bottom;
     background-repeat: no-repeat;
@@ -134,6 +139,7 @@
     width: fit-content;
     color: var(--color-white);
     transform: rotate(2deg);
+    margin-top: -15px;
 }
 
 .section-title-highlight-second {
@@ -146,6 +152,7 @@
     justify-content: center;
     width: fit-content;
     color: var(--color-white);
+    margin-top: -20px;
 }
 
 .section-title-highlight-white {
@@ -159,6 +166,7 @@
     width: fit-content;
     color: var(--color-base-brand);
     transform: rotate(2deg);
+    margin-top: -15px;
 }
 
 .section-title-image {
@@ -184,17 +192,44 @@
     display: flex;
     justify-content: space-between;
     color: var(--color-base-brand);
-    gap: 159px;
 }
 
 .section-about-text {
     font-weight: 540;
     font-size: 26px;
+    max-width: 975px;
+    width: 100%;
 }
 
 .section-about-text-second {
     font-weight: 540;
     font-size: 18px;
+    width: 100%;
+}
+
+.section-about-text-second-block {
+    max-width: 397px;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.section-about-text-second-stgau {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    color: var(--color-stgau);
+    font-weight: 700;
+    line-height: 0;
+    font-size: 18px;
+}
+
+.section-about-text-second-stgau i {
+    font-size: 24px;
+}
+
+.section-about-text-second-stgau:hover {
+    opacity: 0.8;
 }
 
 .section-about-text-caption {
@@ -203,7 +238,7 @@
 
 .section-product-image {
     object-fit: cover;
-    width: 769px;
+    width: 1159px;
     height: 755px;
 }
 
@@ -262,6 +297,12 @@
     justify-content: end;
     gap: 7px;
     text-align: center;
+    transition: all 0.1s ease-in-out;
+    will-change: transform;
+}
+
+.feat:hover {
+    transform: scale(1.1);
 }
 
 .feat-1 {
@@ -291,7 +332,7 @@
 
 .feat-title {
     font-weight: 700;
-    font-size: 36px;
+    font-size: 30px;
     color: var(--color-white);
 }
 
@@ -343,6 +384,10 @@
     cursor: pointer;
 }
 
+.contact-block-href:hover {
+    opacity: 0.8;
+}
+
 #footer {
     padding: 35px 60px;
     background: url("../../public/footer.png");
@@ -360,6 +405,7 @@
     padding: 35px;
     background: var(--color-bold-brand);
     border-radius: 64px;
+    gap: 50px;
 }
 
 .footer-fasie {
@@ -374,4 +420,39 @@
     border-radius: 32px;
     background: linear-gradient(135deg, rgba(255, 255, 255, 0.2) 0%, rgba(255, 255, 255, 0.2) 100%);
     text-align: left;
+}
+
+.footer-blocks {
+    display: flex;
+    gap: 120px;
+    text-align: left;
+}
+
+.footer-block {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-block-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+}
+
+.footer-block-title {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 140%;
+}
+
+.footer-block-list a {
+    font-weight: 540;
+    font-size: 20px;
+    line-height: 150%;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-block-list a:hover {
+    text-decoration: underline;
 }
