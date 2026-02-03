@@ -1,0 +1,203 @@
+/* ===================== MEDIA 1400px ===================== */
+@media (max-width: 1400px) {
+    .hero-text {
+        font-size: 64px;
+    }
+
+    .hero-caption {
+        font-size: 36px;
+    }
+
+    .section-title {
+        font-size: 40px;
+    }
+
+    .section-product-image {
+        width: 100%;
+        height: auto;
+    }
+
+    .feat {
+        width: 380px;
+        height: 380px;
+    }
+}
+
+/* ===================== MEDIA 1024px (TABLET) ===================== */
+@media (max-width: 1024px) {
+    .section-container {
+        padding: 32px;
+    }
+
+    .mobile-section {
+        display: block;
+    }
+
+    .nav {
+        display: none;
+    }
+
+    .hero-block {
+        margin-top: auto;
+    }
+
+    .section-about-base {
+        flex-direction: column;
+    }
+
+    .section-about-text {
+        font-size: 22px;
+    }
+
+    .section-why-image {
+        height: auto;
+    }
+
+    .feats {
+        flex-direction: column;
+    }
+
+    .feat {
+        width: 100%;
+        max-width: 420px;
+        margin: 0 auto;
+    }
+
+    .footer-blocks {
+        flex-direction: column;
+        gap: 40px;
+        align-items: center;
+        text-align: center;
+    }
+}
+
+/* ===================== MEDIA 768px (MOBILE) ===================== */
+@media (max-width: 768px) {
+    .nav {
+        flex-direction: column;
+    }
+
+    .nav-menu {
+        flex-direction: column;
+    }
+
+    .hero-text {
+        font-size: 48px;
+    }
+
+    .hero-caption {
+        font-size: 28px;
+    }
+
+    .section-title {
+        font-size: 32px;
+    }
+
+    .section-title-highlight-base,
+    .section-title-highlight-second,
+    .section-title-highlight-white {
+        height: auto;
+        padding: 8px 12px;
+        font-size: 18px;
+        margin-top: 0;
+    }
+
+    .section-about-text,
+    .section-why-text,
+    .section-clients-text {
+        font-size: 18px;
+    }
+
+    .contact-block {
+        padding: 32px;
+        height: auto;
+        text-align: center;
+        align-items: center;
+    }
+
+    .contact-block-title {
+        font-size: 28px;
+    }
+
+    .contact-block-caption {
+        font-size: 18px;
+    }
+
+    .contact-block-href {
+        font-size: 16px;
+    }
+
+    #footer {
+        padding: 32px;
+    }
+
+    .section-title-image {
+        height: 260px;
+    }
+
+    .section-product-image {
+        display: none
+    }
+
+    .section-product-mix {
+        margin-top: 20px;
+    }
+
+    .section-product-card {
+        display: flex;
+    }
+
+    .section-why-image {
+        display: none;
+    }
+
+    .section-maslo {
+        display: flex;
+    }
+}
+
+/* ===================== MEDIA 480px (SMALL MOBILE) ===================== */
+@media (max-width: 480px) {
+    .section-container {
+        padding: 20px;
+    }
+
+    .footer-block-list a {
+        font-size: 16px;
+    }
+
+    #footer {
+        padding: 20px;
+    }
+
+    .hero-text {
+        font-size: 36px;
+    }
+
+    .hero-caption {
+        font-size: 22px;
+    }
+
+    .section-title {
+        font-size: 26px;
+    }
+
+    .feat {
+        padding: 24px;
+    }
+
+    .feat-title {
+        font-size: 22px;
+    }
+
+    .feat-caption {
+        font-size: 18px;
+        white-space: normal;
+    }
+
+    .footer-fasie {
+        flex-direction: column;
+        font-size: 14px;
+        text-align: center;
+    }
+}
